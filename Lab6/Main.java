@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
         init();
-        String tr = "Здоров я ювелір мій ім'я Макс";
+        String tr = "Здоров я ювелір, ім'я Макс";
         System.out.println("Original: " + tr);
         System.out.println("Translate: " + dictionary.translateText(tr));
         Scanner in = new Scanner(System.in);
